@@ -43,7 +43,7 @@ class UserList extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={this.fetchData.bind(this)}>Add a new user</button>
+        <button onClick={this.fetchData.bind(this)}>Get All Users</button>
         <h1>we have {this.state.users.length} users in the database</h1>
 
         {/* since we added Component did Mount we will not need this button anymore */}
